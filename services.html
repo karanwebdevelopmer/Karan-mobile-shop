@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mihir Mobile Shop – Services</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #1a73e8;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #0f4ec9;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: 20px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            color: #1a73e8;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .services-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 12px;
+        }
+
+        .services-list li {
+            list-style: none;
+            background: #f9fafb;
+            padding: 12px 15px;
+            border-radius: 6px;
+            border-left: 4px solid #1a73e8;
+            font-size: 15px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .services-list li:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            text-align: center;
+            background-color: #1a73e8;
+            color: white;
+            padding: 15px;
+            margin-top: 30px;
+            font-size: 14px;
+        }
+        nav {
+    background-color: #0f4ec9;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* 📱 MOBILE SCREEN FIX */
+@media (max-width: 600px) {
+    nav ul {
+        flex-wrap: wrap;   /* line टूटने दे */
+    }
+
+    nav ul li {
+        margin: 8px 10px;
+    }
+}
+
+        
+    </style>
+</head>
+
+<body>
+    <script src="script.js"></script>
+
+<header>
+    <h1>Mihir Mobile Shop Services</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="prices.html">Prices</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+
+<input 
+    type="text" 
+    id="serviceSearch" 
+    placeholder="Search services..." 
+    onkeyup="filterList('serviceSearch','services-list')"
+    style="padding:10px; width:100%; margin-bottom:15px;"
+>
+
+
+<main>
+    <h2>Our Professional Mobile Repair Services</h2>
+
+    <ul class="services-list">
+        <li>Screen Replacement</li>
+        <li>Touch Glass Replacement</li>
+        <li>Display Repair</li>
+        <li>Button Change (Power & Volume)</li>
+        <li>Charging Port Repair</li>
+        <li>Battery Replacement</li>
+        <li>Speaker Repair</li>
+        <li>Microphone Repair</li>
+        <li>Headphone Jack Repair</li>
+        <li>Camera Repair</li>
+        <li>Camera Lens Replacement</li>
+        <li>Front Camera Repair</li>
+        <li>Back Camera Repair</li>
+        <li>Software Problem Fix</li>
+        <li>Phone Hang & Slow Issue Fix</li>
+        <li>Virus Removal</li>
+        <li>Software Update</li>
+        <li>OS Installation / Flashing</li>
+        <li>Pattern / Password Unlock</li>
+        <li>Data Recovery</li>
+        <li>Data Transfer</li>
+        <li>Water Damage Repair</li>
+        <li>Network Signal Problem Fix</li>
+        <li>No Service Issue Repair</li>
+        <li>SIM Slot Repair</li>
+        <li>SIM Card Detection Issue Fix</li>
+        <li>Wi-Fi Problem Repair</li>
+        <li>Bluetooth Issue Repair</li>
+        <li>Mobile Heating Issue Fix</li>
+        <li>Auto Restart Problem Fix</li>
+        <li>Dead Phone Repair</li>
+        <li>Boot Loop Issue Fix</li>
+        <li>Motherboard Repair</li>
+        <li>IC Replacement</li>
+        <li>Charging Slow Issue Fix</li>
+        <li>Battery Drain Issue Fix</li>
+        <li>Display Line Issue Repair</li>
+        <li>Touch Not Working Fix</li>
+        <li>Proximity Sensor Repair</li>
+        <li>Fingerprint Sensor Repair</li>
+        <li>Face Unlock Issue Fix</li>
+        <li>Vibration Motor Repair</li>
+        <li>Flashlight Repair</li>
+        <li>Memory Card Slot Repair</li>
+        <li>Phone Freezing Issue Fix</li>
+        <li>Speaker Sound Low Issue Fix</li>
+        <li>Mic Sound Low Issue Fix</li>
+        <li>Network Unlocking</li>
+        <li>IMEI Repair</li>
+    </ul>
+</main>
+
+<footer>
+    © 2025 Mihir Mobile Shop | Baramasia, Deoghar, Jharkhand – 814112
+</footer>
+
+</body>
+</html>
